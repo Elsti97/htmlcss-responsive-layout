@@ -40,7 +40,6 @@
 .bg-white {
   background-color: white;
   border-radius: 50px;
-  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -99,7 +98,6 @@ main {
 
 img{
   width: 100%;
-  height: auto;
 }
 
 .singolo {
@@ -186,7 +184,7 @@ img{
   /* !HEADER */
   .menu-top {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
 
@@ -218,9 +216,12 @@ img{
 
   /* *SECONDA SECTION */
 
+  .width-90 {
+    width: 80%;
+    margin: auto;
+  }
 
   .white img, .bg-white img {
-    width: 40%;
-    align-self: center;
+    max-width: 50%;
   }
 }
