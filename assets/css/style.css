@@ -23,6 +23,7 @@
   background-color: #2A84FD;
   margin-bottom: 2rem;
   justify-content: center;
+  font-size: 1.2rem;
 }
 
 h2 {
@@ -43,12 +44,13 @@ h2 {
   flex-wrap: wrap;
 }
 
-/* * HEADER */
+/* !HEADER */
 header{
   background-color: #2A84FD;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .menu-top{
@@ -67,11 +69,15 @@ header{
 }
 
 
-/* *MAIN */
+/* !MAIN */
 
 main {
+  margin: 8rem 0 3rem 0;
+}
+
+.pt-1 {
   width: 90%;
-  margin: 8rem auto 3rem auto;
+  margin: auto;
 }
 
 img{
@@ -80,18 +86,19 @@ img{
 
 .singolo {
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .blue-box > i {
   color: #2A84FD;
-  font-size: 7rem;
+  font-size: 6rem;
   margin-bottom: 2rem;
 }
 
 .blue-box > p {
   margin: 2rem 0;
+  color: #5A6E7F;
+  line-height: 1.6rem;
+  font-weight: bold;
 }
 
 
@@ -102,19 +109,31 @@ img{
 
 
 @media screen and (min-width: 768px) {
+  /* !MAIN */
+  .blue-box {
+    padding: 2rem 1rem 0;
+  }
+
   .doppio {
-    flex-basis: 60%;
+    width: calc(((100%/3)*2) - 3%);
+    margin-right: 3%;
   }
 
   .singolo {
-    flex-basis: 30%;
+    width: calc((100%/3) - 3%);
+    margin-right: 3%;
   }
+
+  .doppio img {
+    
+  } 
   
 }
 @media screen and (min-width: 1024px) {
+  /* !HEADER */
   .menu-top {
     display: flex;
-    width: 70%;
+    width: 90%;
     margin: auto;
   }
 
@@ -128,5 +147,10 @@ img{
 
   .menu-desktop > span {
     margin: 5px;
+  }
+
+  /* !MAIN */
+  .doppio img {
+
   }
 }
