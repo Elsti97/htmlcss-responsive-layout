@@ -5,8 +5,8 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.padding-top-bottom{
-  padding: 2rem 0;
+.padding-2{
+  padding: 2rem;
 }
 
 .margin-bottom-3 {
@@ -47,6 +47,11 @@
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 /* !HEADER */
@@ -116,7 +121,7 @@ img{
 
 /* *SECONDA SECTION */
 .pt-2 {
-  padding: 5rem 0;
+  padding: 5rem 0 3rem;
 }
 
 .bg-violet{
@@ -135,6 +140,7 @@ img{
 .white > h2 {
   font-size: 2.5rem;
 }
+
 
 .jc-center {
   justify-content: center;
@@ -212,4 +218,9 @@ img{
 
   /* *SECONDA SECTION */
 
+
+  .white img, .bg-white img {
+    width: 40%;
+    align-self: center;
+  }
 }
