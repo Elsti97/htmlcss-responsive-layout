@@ -4,22 +4,56 @@
   box-sizing: border-box;
 }
 
+.button-white {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
 /* * header */
 header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #2A84FD;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-header div{
+.menu-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-top > div{
   color: white;
-  margin: 1rem 2rem;
+  padding: 1.5rem;
 }
 
 .menu-desktop {
   display: none;
+}
+
+
+
+/* * RESPONSIVE */
+
+/* !HEADER RESPONSIVE */
+@media screen and (min-width: 1024px) {
+  .menu-top {
+    display: flex;
+    width: 70%;
+    margin: auto;
+  }
+
+  .menu-hamburger {
+    display: none;
+  }
+
+  .menu-desktop{
+    display: block;
+  }
+
+  .menu-desktop > span {
+    margin: 5px;
+  }
 }
