@@ -77,7 +77,7 @@ header{
 /* !MAIN */
 
 main {
-  margin: 8rem 0 3rem 0;
+  margin-top: 8rem;
 }
 
 /* *PRIMA SECTION */
@@ -152,8 +152,9 @@ img{
 
 
 
+/* ************************************************************************ */
 /* *RESPONSIVE */
-
+/* ************************************************************************ */
 
 @media screen and (min-width: 768px) {
   /* !MAIN */
@@ -171,7 +172,7 @@ img{
     margin-right: 3%;
   }
 
-  .doppio img {
+  .metà-dx img {
     width: 60%;
   }
 }
@@ -197,18 +198,18 @@ img{
 
   /* !MAIN */
   /* *PRIMA SECTION */
-  .doppio img {
+  .metà {
+    flex-basis: 50%;
+  }
+
+  .metà-dx {
+    align-self: flex-end;
+  }
+
+  .metà-dx img {
     width: 100%;
   }
 
-  .metà {
-    flex-basis: calc((100%/2));
-    justify-content: flex-end;
-  }
-
-
   /* *SECONDA SECTION */
-  .dio * {
-    flex-basis: 50%;
-  }
+
 }
