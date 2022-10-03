@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* * header */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2A84FD;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header div{
+  color: white;
+  margin: 1rem 2rem;
+}
+
+.menu-desktop {
+  display: none;
+}
