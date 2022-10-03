@@ -42,8 +42,6 @@
   border-radius: 50px;
   margin-bottom: 2rem;
   text-align: center;
-  width: 90%;
-  margin: auto;
 }
 
 .flex-wrap {
@@ -96,6 +94,7 @@ main {
 
 img{
   width: 100%;
+  height: auto;
 }
 
 .singolo {
@@ -108,7 +107,7 @@ img{
   margin-bottom: 2rem;
 }
 
-.blue-box > p {
+.blue-box p {
   margin: 2rem 0;
   color: #5A6E7F;
   line-height: 2rem;
@@ -173,9 +172,8 @@ img{
   }
 
   .doppio img {
-
-  } 
-  
+    width: 60%;
+  }
 }
 @media screen and (min-width: 1024px) {
   /* !HEADER */
@@ -198,7 +196,19 @@ img{
   }
 
   /* !MAIN */
+  /* *PRIMA SECTION */
   .doppio img {
+    width: 100%;
+  }
 
+  .metà {
+    flex-basis: calc((100%/2));
+    justify-content: flex-end;
+  }
+
+
+  /* *SECONDA SECTION */
+  .dio * {
+    flex-basis: 50%;
   }
 }
