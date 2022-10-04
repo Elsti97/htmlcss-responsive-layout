@@ -256,8 +256,7 @@ img{
 
 .white-box h2,.white-box h3 {
   color: #9792E4;
-  margin: 1.5rem 0;
-  font-size: 2rem;
+  padding: 1.5rem 0;
 }
 
 .white-box p {
@@ -425,16 +424,27 @@ a:last-child {
 
   .metà-dx img {
     width: 100%;
+    height: auto;
+    object-fit: contain;
+    align-self: flex-end;
   }
 
   /* *SECONDA SECTION */
 
   .width-90 {
     width: 80%;
-    margin: auto;
+  }
+
+  .pt-3 > p {
+    text-align: center;
   }
 
   .white img, .bg-white img {
     max-width: 50%;
+  }
+
+  .white-box {
+    flex-basis: calc((100%/3) - 3%);
+    font-size: 1rem;
   }
 }
