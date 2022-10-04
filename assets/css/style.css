@@ -30,6 +30,16 @@
   font-size: 1.2rem;
 }
 
+.button-violet {
+  border: none;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  color: white;
+  background-color: #9792E4;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
 .blue-box {
   background-color: #B5DDFF;
   border-radius: 20px;
@@ -39,9 +49,17 @@
 
 .box-violet {
   background-color: #9792E4;
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 4rem 3rem 0 3rem;
   margin-bottom: 2rem;
+}
+
+.white-box {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem 2rem 0;
+  margin-bottom: 2rem;
+  line-height: 1.6rem;
 }
 
 .bg-white {
@@ -187,6 +205,28 @@ img{
   height: 200px;
 }
 
+
+/* *QUARTA SECTION */
+.pt-4 {
+  padding: 2rem 1rem;
+}
+
+.pt-4 > h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+.white-box h2, h3{
+  color: #9792E4;
+  margin: 1.5rem 0;
+  font-size: 2rem;
+}
+
+.white-box p {
+  color: #818181;
+}
 
 
 
