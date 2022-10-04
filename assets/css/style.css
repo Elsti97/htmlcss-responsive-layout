@@ -211,8 +211,8 @@ img{
   padding: 1.5rem;
 }
 
-.bg-white > * {
-  padding-bottom: 2rem;
+.bg-white p {
+  padding: 0.5rem 0;
 }
 
 /* *TERZA SECTION */
@@ -435,6 +435,18 @@ a:last-child {
     width: 80%;
   }
 
+  .saluto-sx {
+    flex-basis: 55%;
+    text-align: center;
+
+  }
+
+  .saluto-dx {
+    flex-basis: 40%;
+    align-self: flex-end;
+  }
+
+  /* *TERZA SECTION */
   .pt-3 > p {
     text-align: center;
   }
@@ -446,5 +458,10 @@ a:last-child {
   .white-box {
     flex-basis: calc((100%/3) - 3%);
     font-size: 1rem;
+  }
+
+  footer * {
+    width: 50%;
+    margin: auto;
   }
 }
