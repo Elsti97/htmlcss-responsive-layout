@@ -102,6 +102,18 @@ header{
   display: none;
 }
 
+.p-relative {
+  position: relative;
+}
+
+.p-absolute-top {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  color: #9792E4;
+  font-size: 4rem;
+}
+
 
 /* !MAIN */
 
@@ -197,7 +209,7 @@ img{
   text-align: center;
 }
 
-.photo-center img {
+.photo-center img, .about-dx img {
   border-radius: 50%;
   object-fit: cover;
   text-align: center;
@@ -218,7 +230,7 @@ img{
   padding: 0 2rem;
 }
 
-.white-box h2, h3{
+.white-box h2,.white-box h3, .pt-5 h2, .pt-5 h3{
   color: #9792E4;
   margin: 1.5rem 0;
   font-size: 2rem;
@@ -228,6 +240,12 @@ img{
   color: #818181;
 }
 
+/* *QUINTA SECTION */
+.pt-5 p {
+  margin: 2rem 0;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
 
 
 /* ************************************************************************ */
