@@ -5,8 +5,24 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.padding-2{
-  padding: 2rem;
+.c-white {
+  color: white;
+}
+
+.c-yellow {
+  color: #FAC15F;
+}
+
+.c-blue {
+  color: #9792E5;
+}
+
+.font-2 {
+  font-size: 2rem;
+}
+
+.font-4 {
+  font-size: 4rem;
 }
 
 .margin-bottom-3 {
@@ -60,6 +76,10 @@
   padding: 1rem 2rem 0;
   margin-bottom: 2rem;
   line-height: 1.6rem;
+}
+
+.padding-6{
+  padding: 1rem 6rem;
 }
 
 .bg-white {
@@ -219,7 +239,7 @@ img{
 
 
 /* *QUARTA SECTION */
-.pt-4 {
+.pt-4, .pt-6 {
   padding: 2rem 1rem;
 }
 
@@ -241,12 +261,39 @@ img{
 }
 
 /* *QUINTA SECTION */
+.pt-5 {
+  margin: 3rem auto;
+}
 .pt-5 p {
   margin: 2rem 0;
   line-height: 2rem;
   font-size: 1.2rem;
 }
 
+/* *SESTA SECTION */
+.pt-6 {
+  text-align: center;
+}
+
+.pt-6 p, .pt-6 h2, ul {
+  margin: 2rem 0;
+  line-height: 1.6rem;
+}
+
+ul {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li:first-child {
+  list-style-type: none;
+}
+
+li:last-child {
+  text-decoration: underline;
+}
 
 /* ************************************************************************ */
 /* *RESPONSIVE */
