@@ -32,7 +32,7 @@
 .button-white {
   border: none;
   padding: 0.5rem;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .button-blue {
@@ -292,20 +292,23 @@ img{
 }
 
 /* *SESTA SECTION */
-.pt-6 {
+.pt-6 div:first-child {
   text-align: center;
 }
 
 .pt-6 p, .pt-6 h2, ul {
-  margin: 2rem 0;
+  padding: 2rem 0;
   line-height: 1.6rem;
 }
 
 ul {
   color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  padding-left: 0;
+}
+
+li {
+  margin-right: 2rem;
 }
 
 li:first-child {
@@ -320,7 +323,7 @@ li:last-child {
 
 /* !FOOTER */
 footer {
-  padding: 2rem;
+  padding: 3rem;
 }
 a {
   color: #9792E4;
@@ -384,7 +387,12 @@ a:last-child {
     flex-direction: column;
   }
 
+  /* !FOOTER */
+  footer {
+    padding: 3rem 5rem;
+  }
 }
+
 
 
 @media screen and (min-width: 1024px) {
