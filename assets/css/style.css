@@ -352,7 +352,16 @@ a:last-child {
     font-size: 1.2rem;
   }
 
+  .white-box {
+    flex-basis: calc((100%/2) - 3%);
+    margin-right: 3%;
+  }
+
+
+
 }
+
+
 @media screen and (min-width: 1024px) {
   /* !HEADER */
   .menu-top {
@@ -372,6 +381,8 @@ a:last-child {
   .menu-desktop > span {
     margin: 5px;
   }
+
+
 
   /* !MAIN */
   /* *PRIMA SECTION */
