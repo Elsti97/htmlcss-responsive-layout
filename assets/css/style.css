@@ -420,6 +420,7 @@ a:last-child {
   /* *PRIMA SECTION */
   .metà {
     flex-basis: 50%;
+    align-items: center;
   }
 
   .metà-dx img {
